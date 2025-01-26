@@ -26,6 +26,7 @@ Create an Excel file (e.g., songs.xlsx) with the following structure:
 
 ### Installing Dependencies from requirements.txt :
 Once you've created the requirements.txt file, you can install all the required packages using the following command:
+
 ```pip install -r requirements.txt```
 
 ### Usage :
@@ -35,7 +36,22 @@ Changing the Excel File Path If your Excel file is named differently or located 
 ```excel_file = 'YourExcelFile.xlsx'  # Replace with your Excel file path```
 
 Changing the Output Folder By default, the output folder is named after the Excel file (without the .xlsx extension). To change it, modify the output_folder variable:
+
 ```output_folder = 'YourDesiredOutputFolder'```
 
 Adjusting Filename Format The script uses the format {Track name} - {Artist name}.mp3. To customize, edit the outtmpl parameter in the download_song_youtube function:
+
 ```'outtmpl': os.path.join(output_folder, f"{track_name} - {artist_name}.%(ext)s"),```
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgements
+
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp) for downloading YouTube content.
+- [Mutagen](https://mutagen.readthedocs.io/) for handling MP3 metadata.
+- [Pillow](https://python-pillow.org/) for image processing.
+- [Requests](https://requests.readthedocs.io/) for HTTP requests.
+- [Pandas](https://pandas.pydata.org/) for Excel file manipulation.
