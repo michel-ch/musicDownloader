@@ -33,11 +33,11 @@ Once you've created the requirements.txt file, you can install all the required 
 
 Changing the Excel File Path If your Excel file is named differently or located in another directory, modify the excel_file variable in the script:
 
-```excel_file = 'YourExcelFile.xlsx'  # Replace with your Excel file path```
-
-Changing the Output Folder By default, the output folder is named after the Excel file (without the .xlsx extension). To change it, modify the output_folder variable:
-
-```output_folder = 'YourDesiredOutputFolder'```
+```excel_files = [
+        'YourExcelFile.xlsx',
+        'YourExcelFile2.xlsx',
+    ]  # Replace with your Excel file path
+```
 
 Adjusting Filename Format The script uses the format {Track name} - {Artist name}.mp3. To customize, edit the outtmpl parameter in the download_song_youtube function:
 
