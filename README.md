@@ -1,6 +1,6 @@
 # Music Downloader From Excel
 
-Originally this project was made by me to get out of the ![Deezer](https://img.shields.io/badge/Deezer-FEAA2D?style=for-the-badge&logo=deezer&logoColor=white) ecosystem and stop paying money every month because why not ? 🐀
+Originally this project was made by me to get out of the Deezer ecosystem and stop paying money every month because why not ? 🐀
 
 Because the deezer API does not allow any creation of Token to access account playlists and bypassing by creating app does not work anymore as well.
 [Source 1](https://www.reddit.com/r/deezer/comments/1bizi0k/i_cant_get_api_key_for_some_reason/)
