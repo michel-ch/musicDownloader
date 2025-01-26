@@ -7,7 +7,7 @@ Because the deezer API does not allow any creation of Token to access account pl
 [Source 2](https://developers.deezer.com/api/search)
 
 The deezer playlist where extracted from [tunemymusic](https://www.tunemymusic.com/) for free by linking Deezer Account.
-Exporting the CSV and changing the format to UTF-8 to include all the languages in the correct format and separating the columns of the csv.
+Exporting the CSV and changing the format to UTF-8 using ```.xlsx``` to include all the languages in the correct format and separating the columns of the ```.xlsx```.
 
 After that this script is used to download music from youtube and add metadata of the song in the ```.mp3``` downloaded.
 
