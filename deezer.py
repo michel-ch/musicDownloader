@@ -90,7 +90,7 @@ def main():
             track_name = row['Track name']
             artist_name = row['Artist name']
 
-            print(f"  → {track_name} by {artist_name}")
+            print(f"Processing → {track_name} by {artist_name}")
 
             # Download song
             mp3_file, thumbnail_url = download_song_youtube(track_name, artist_name, output_folder)
