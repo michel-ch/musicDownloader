@@ -11,3 +11,10 @@ Exporting the CSV and changing the format to UTF-8 to include all the languages 
 
 After that this script is used to download music from youtube and add metadata of the song in the ```.mp3``` downloaded.
 
+Preparing the Excel File
+Create an Excel file (e.g., songs.xlsx) with the following structure:
+
+| Track name |	Artist name |
+| ------------- | ------------- |
+| Shape of You |	Ed Sheeran |
+| Blinding Lights |	The Weeknd |
