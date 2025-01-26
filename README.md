@@ -31,7 +31,7 @@ Once you've created the requirements.txt file, you can install all the required 
 ### Usage :
 
 Changing the Excel File Path If your Excel file is named differently or located in another directory, modify the excel_file variable in the script:
-python
+
 ```excel_file = 'YourExcelFile.xlsx'  # Replace with your Excel file path```
 
 Changing the Output Folder By default, the output folder is named after the Excel file (without the .xlsx extension). To change it, modify the output_folder variable:
