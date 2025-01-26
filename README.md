@@ -1,4 +1,4 @@
-# Music Downloader From Excel
+# Music Downloader From Deezer 🐀
 
 Originally this project was made by me to get out of the Deezer ecosystem and stop paying money every month because why not ? 🐀
 
